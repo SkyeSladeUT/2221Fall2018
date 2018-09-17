@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Tire
   - Death
+  - End
   layers:
   - Default
   - TransparentFX
