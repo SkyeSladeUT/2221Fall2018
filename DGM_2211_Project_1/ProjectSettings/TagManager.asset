@@ -10,6 +10,7 @@ TagManager:
   - Tire
   - Death
   - End
+  - Coin
   layers:
   - Default
   - TransparentFX
