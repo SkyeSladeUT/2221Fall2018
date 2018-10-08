@@ -12,6 +12,7 @@ TagManager:
   - End
   - Coin
   - Key
+  - flipVolume
   layers:
   - Default
   - TransparentFX
