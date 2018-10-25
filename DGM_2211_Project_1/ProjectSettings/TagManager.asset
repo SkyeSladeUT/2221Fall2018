@@ -13,6 +13,7 @@ TagManager:
   - Coin
   - Key
   - flipVolume
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
