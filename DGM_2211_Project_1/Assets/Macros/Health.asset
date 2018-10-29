@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Health
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-228.0,"y":56.0},"guid":"a8e01e6f-1aea-4c44-8f71-b1195dc7f71b","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"defaultValues":{"dividend":{"$content":1.0,"$type":"System.Single"},"divisor":{"$content":5.0,"$type":"System.Single"}},"position":{"x":9.0,"y":64.0},"guid":"6cfc7ea0-3c57-4b20-8bf0-c0b48a401090","$version":"A","$type":"Bolt.ScalarDivide","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Player","$type":"System.String"}},"position":{"x":-427.0,"y":68.0},"guid":"be8f4550-ddeb-425d-9536-b7a43d39b22c","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":-323.0,"y":-60.0},"guid":"ee3cae38-41dc-4fdb-873d-0abd116531ff","$version":"A","$type":"Bolt.Update","$id":"15"},{"chainable":false,"member":{"name":"fillAmount","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-58.0,"y":-92.0},"guid":"800a42b4-f2c3-4e57-8fa5-16b401c51be2","$version":"A","$type":"Bolt.SetMember","$id":"17"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"e8d21d39-8673-4d6c-984a-5ec6fbb855d9","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"object","guid":"db13bdfb-8283-4ca7-816a-135746f44c33","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"dividend","guid":"3db56d62-5c6b-4ef7-bcc4-3a500f487a8f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"quotient","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"6c62e91a-b3a9-48a1-9e3f-e906cb78487e","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
