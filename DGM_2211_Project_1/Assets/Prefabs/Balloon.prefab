@@ -30,7 +30,7 @@ GameObject:
   m_TagString: Life
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4870362781758958
 Transform:
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1534037041732164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -127.555, y: -66.936, z: 23.85}
+  m_LocalPosition: {x: -63.6, y: -55.81, z: 24.01}
   m_LocalScale: {x: 0.31326097, y: 0.313261, z: 0.313261}
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.1918776, z: 6.7850933}
-  m_Center: {x: 0, y: -0.13092873, z: 0.22993664}
+  m_Size: {x: 1, y: 2.8945742, z: 1}
+  m_Center: {x: 0, y: -0.98227686, z: 0}
 --- !u!114 &114011809557487828
 MonoBehaviour:
   m_ObjectHideFlags: 1
