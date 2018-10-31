@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65075532914272582}
   - component: {fileID: 114011809557487828}
   - component: {fileID: 114720955358511808}
+  - component: {fileID: 95140138313666032}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Life
@@ -99,6 +100,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.8945742, z: 1}
   m_Center: {x: 0, y: -0.98227686, z: 0}
+--- !u!95 &95140138313666032
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534037041732164}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9cc5b8252213dcd48a3f44d5e685e7bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114011809557487828
 MonoBehaviour:
   m_ObjectHideFlags: 1
